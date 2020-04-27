@@ -19,6 +19,7 @@ Route::get('/contact', 'LandingController@contact');
 Route::get('/price', 'LandingController@price');
 Route::get('/registration', 'RegistationController@index')->name('registration');
 Route::post('/registration', 'RegistationController@store');
+Route::get('/instagram', 'InstagramController@instagramfeed');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

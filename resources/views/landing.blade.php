@@ -69,52 +69,55 @@
     <section id="tipe">
         <div class=" mt-5">
             <div class="row justify-content-between">
-                <div class="card mb-3 bacg" style="max-width: 540px;">
-                    <div class="row no-gutters p-1  ">
-                        <div class="col-md-4">
-                            <img src="{{asset('image/pasteur.png')}}" class="card-img" height="250" width="80">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="card mb-3 bacg" style="max-width: 540px;">
+                            <div class="row no-gutters p-1  ">
+                                <div class="col-md-4">
+                                    <img src="{{asset('image/pasteur.png')}}" class="card-img" height="250" width="80">
+                                </div>
+                                <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gateway Pasteur</h5>
+                                    <p class="card-text ">Gateway Pasteur adalah sebuah kawasan Residential dan Commercial terbesar dan terlengkap di Bandung yang terletak dekat dengan Pintu Tol, Bandara International Husein Sastranegara, Universitas-universitas dan Mall-mall ternama di Bandung. Gateway Pasteur memiliki 4 gedung Apartment yang terdiri lebih dari 2500 unit Apartment dan Komersial.</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Gateway Pasteur</h5>
-                            <p class="card-text ">Gateway Pasteur adalah sebuah kawasan Residential dan Commercial terbesar dan terlengkap di Bandung yang terletak dekat dengan Pintu Tol, Bandara International Husein Sastranegara, Universitas-universitas dan Mall-mall ternama di Bandung. Gateway Pasteur memiliki 4 gedung Apartment yang terdiri lebih dari 2500 unit Apartment dan Komersial.</p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                <div class="card mb-3 bacg" style="max-width: 540px;">
-                    <div class="row no-gutters bacg">
-                        <div class="col-md-4">
-                            <img src="{{asset('image/onix.png')}}" class="card-img" height="220" width="80">
-                        </div>
-                        <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Apa ONYX Itu ?</h5>
-                            <p class="card-text">Onyx adalah sebuah bangunan yang terletak tepat di bagian tengah kawasan Gateway Pasteur, yang terdiri dari:
-                                • 8 Lantai Bangunan
-                                • Luas Bangunan ± 7.600 m 2
-                                • Terdiri dari:
-                                • Conference Area
-                                • Main Lobby dan Satelite Lobby
-                                • ± 150 kamar</p>
-                        </div>
+                        <div class="card mb-3 bacg" style="max-width: 540px;">
+                            <div class="row no-gutters bacg">
+                                <div class="col-md-4">
+                                    <img src="{{asset('image/onix.png')}}" class="card-img" height="220" width="80">
+                                </div>
+                                <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Apa ONYX Itu ?</h5>
+                                    <p class="card-text">Onyx adalah sebuah bangunan yang terletak tepat di bagian tengah kawasan Gateway Pasteur, yang terdiri dari:
+                                        • 8 Lantai Bangunan
+                                        • Luas Bangunan ± 7.600 m 2
+                                        • Terdiri dari:
+                                        • Conference Area
+                                        • Main Lobby dan Satelite Lobby
+                                        • ± 150 kamar</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="container  ">
+                <div class="container">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between bgcr pb-4 mb-2 img-thumbnail">
                         <div class="col img-hover-zoom ">
-                            <img src="{{asset('image/image2.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="230px" >
+                            <img src="{{asset('image/image2.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="220px" >
                         </div>
                         <div class="col img-hover-zoom">
-                            <img src="{{asset('image/image3.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="230px" >
+                            <img src="{{asset('image/image3.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="220px" >
                         </div>
                         <div class="col img-hover-zoom">
-                            <img src="{{asset('image/image4.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="230px" >
+                            <img src="{{asset('image/image4.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="220px" >
                         </div>
                         <div class="col img-hover-zoom">
-                            <img src="{{asset('image/image5.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="230px" >
+                            <img src="{{asset('image/image5.jpg')}}" class="mt-4 ml-3 rounded" height="140px" width="220px" >
                         </div>
                     </div>
                 </div>

@@ -34,19 +34,19 @@
             <h1 class="display-4 title">KONTAK KAMI</h1>
             <div class="row">
                 <div class="col-12 text-center mt-5">
-                    <img src="{{asset('image/logo-gateway-3@2x.png')}}" height="300" width="370">
+                    <img src="{{asset('image/logo-gateway-3@2x.png')}}" height="270" width="340" class="card-img">
                 </div>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class="container flexbox">
+    <div class="container">
         @foreach ($contacts as $cont)
             <div class="card maincard" >
                 <div class="card-body">
-                <h5 class=" px-5" class="card-title">{{ $cont->contact }}</h5>
-                <a href="#" class="btn btn-primary">{{ $cont->data }}</a>
+                <h5 class="" class="card-title">{{ $cont->contact }}</h5>
+                    <a href="#" class="btn btn-primary">{{ $cont->data }}</a>
                 </div>
             </div>
         @endforeach 

@@ -11,6 +11,7 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/http-adrajaya-com-dev/image/upload/v1587968328/pasteur/logo_rq1ecj.ico" />
     <script type="text/javascript">
       function generateBarCode()
       {
