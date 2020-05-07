@@ -22,18 +22,11 @@
                 <li data-target="#bnrH" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" >
-                <div class="carousel-item active">
-                    <img src="{{asset('image/b.jpg')}}" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('image/R.JPG')}}" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('image/V.JPG')}}" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('image/poster.jpg')}}" class="d-block w-100">
-                </div>
+                @foreach ($gambar as $gbr)
+                    <div class="carousel-item active">
+                        <img src="{{asset('image/'. $gbr->file) }}" class="d-block w-100">
+                    </div>
+                @endforeach 
             </div>
             <a class="carousel-control-prev" href="#bnrH" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

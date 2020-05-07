@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <img id="img-logo" src="{{asset('image/logo.png')}}" height="100" width="90">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -32,8 +32,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
+                    <ul class="navbar-nav mr-auto ">
+                        
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -73,7 +73,13 @@
         </nav>
 
         <main class="py-4">
-            @yield('content')
+            <div class="container ">
+                <div class="div bg-info">
+                    <a class="mr-5 ml-5 btn btn-info text-light" href="/home">Banner</a>
+                    <a class=" btn btn-info text-light" href="/formulir">Pendaftaran</a>
+                </div>
+                @yield('content')
+            </div>
         </main>
     </div>
 </body>

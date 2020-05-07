@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\contact;
+use App\Gambar;
 use Illuminate\Http\Request;
 
 class LandingController extends Controller
 {
     public function landing()
     {
-        return view('landing');
+        $gambar = Gambar::all();
+        return view('landing',compact('gambar'));
     }
     public function contact()
     {

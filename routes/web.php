@@ -20,7 +20,16 @@ Route::get('/price', 'LandingController@price');
 Route::get('/registration', 'RegistationController@index')->name('registration');
 Route::post('/registration', 'RegistationController@store');
 Route::get('/instagram', 'InstagramController@instagramfeed');
+//email
+Route::get('/email', function () {
+    return view('send_email');
+});
+Route::post('/sendEmail', 'Email@sendEmail');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/formulir', 'HomeController@formulir')->name('home');
+Route::post('/home/proses', 'HomeController@proses_upload');
+Route::get('/home/hapus/{id}', 'HomeController@hapus');
+Route::get('/formulir/{id}', 'HomeController@del');
 
