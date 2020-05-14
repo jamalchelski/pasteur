@@ -22,9 +22,9 @@
                 <li data-target="#bnrH" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" >
-                @foreach ($gambar as $gbr)
-                    <div class="carousel-item active">
-                        <img src="{{asset('image/'. $gbr->file) }}" class="d-block w-100">
+                @foreach ($gambar as $gbr => $slider )
+                    <div class="carousel-item {{$gbr == 0 ? 'active' : '' }}">
+                        <img src="{{asset('data_file/'. $slider->file) }}" class="d-block w-100">
                     </div>
                 @endforeach 
             </div>
